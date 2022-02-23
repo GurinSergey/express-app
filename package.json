@@ -1,0 +1,28 @@
+{
+  "name": "node-youtube",
+  "version": "1.0.0",
+  "description": "Node JS Course for youtube",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Sergey Gurin <serheygurin89@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.2",
+    "express-fileupload": "^1.3.1",
+    "mongoose": "^6.1.9",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
